@@ -1,0 +1,156 @@
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+
+
+.navigation{
+    margin-left: 10%;
+    margin-right: 10%;
+
+    
+}
+nav{
+    width: 49%;
+    text-align: right;
+    
+}
+
+header ul{
+    padding: 10px;
+    margin: 0;
+}
+
+#logo{
+    width: 49%;
+}
+
+.heroImg{
+    height: 500px;
+    padding: 25px;
+    text-align: center;
+}
+
+
+/* #aboutMe{
+
+} */
+
+.content{
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+
+footer{
+background-color: #ffe3cd;
+text-align: right;
+}
+
+footer ul{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10%;
+    margin-right: 12%;
+
+}
+
+li{
+    padding: 2px;
+}
+
+/* My Skills Section */
+.mySkills{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+/* h1{
+    display: inline-block;
+
+} */
+
+.flexContainer{
+    display: flex;
+margin-bottom: 50px;
+
+}
+
+.flexItem{
+    width: 33%;
+
+}
+
+.myWork{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.workGrid{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 100px;
+    grid-gap: 20px;
+    /* border: green solid; */
+}
+
+#projectImg1{
+   background-image: url(/HW-18/imgs/Postcard\ thumb.png) ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+    /* border: red solid; */
+
+}
+#projectImg2{
+    background-image: url(/HW-18/imgs/besties\ thumb.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     /* border: red solid; */
+ 
+ }
+ #projectImg3{
+    background-image: url(/HW-18/imgs/PCAU\ thumb.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     /* border: red solid; */
+ 
+ }
+
+ @media only screen and (max-width:600px){
+    
+.workGrid{
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 100px 200px 100px 200px 100px;
+}
+
+#gridText1{
+    grid-row-start: 2;
+}
+
+#gridText2{
+    grid-row-start: 4;
+}
+
+.flexContainer{
+flex-direction: column;
+justify-content: center;
+}
+
+.flexItem{
+    width: 100%;
+
+}
+
+ }
