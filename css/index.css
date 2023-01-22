@@ -1,3 +1,36 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+button{
+    appearance: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 15px 35px;
+    border-radius: 8px;
+    color: black;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    background-color: #99EEDD;
+
+}
+
+.buttonBorder{
+    padding: 2px 2px;
+    border-radius: 10px;
+    width:max-content;
+    background-image: linear-gradient(to bottom, transparent 50%, black 50%);
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+    transition: 0.4s;
+}
+
+.buttonBorder:hover{
+ background-position: 0% 100%;
+}
+
 .inline-block{
     display: inline-block;
     vertical-align: top;
@@ -69,10 +102,13 @@ li{
     text-align: center;
 }
 
-/* h1{
-    display: inline-block;
+h1{
+    font-family: 'Nunito', sans-serif;
+}
 
-} */
+h4{
+    font-family: 'Nunito', sans-serif;
+}
 
 .flexContainer{
     display: flex;
@@ -86,8 +122,8 @@ margin-bottom: 50px;
 }
 
 .myWork{
-    margin-left: 10%;
-    margin-right: 10%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
     text-align: center;
     margin-bottom: 50px;
 }
@@ -104,15 +140,15 @@ margin-bottom: 50px;
 }
 
 #projectImg1{
-   background-image: url(/HW-18/imgs/Postcard\ thumb.png) ;
+   background-image: url(../imgs/postcardThumb.png) ;
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
-    /* border: red solid; */
+    /* border: rgb(22, 224, 140) solid; */
 
 }
 #projectImg2{
-    background-image: url(/HW-18/imgs/besties\ thumb.png) ;
+    background-image: url(../imgs/bestiesThumb.png) ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -120,7 +156,7 @@ margin-bottom: 50px;
  
  }
  #projectImg3{
-    background-image: url(/HW-18/imgs/PCAU\ thumb.png) ;
+    background-image: url(../imgs/pcauThumb.png) ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
