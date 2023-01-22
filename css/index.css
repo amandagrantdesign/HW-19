@@ -25,6 +25,7 @@ button{
     background-size: 100% 200%;
     background-position: 0% 0%;
     transition: 0.4s;
+    display: inline-block;
 }
 
 .buttonBorder:hover{
