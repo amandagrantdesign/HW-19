@@ -111,6 +111,11 @@ h4{
     font-family: 'Nunito', sans-serif;
 }
 
+.link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .flexContainer{
     display: flex;
 margin-bottom: 50px;
